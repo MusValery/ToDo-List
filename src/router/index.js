@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "components/home";
+import TodoList from "components/TodoList/TodoList.vue";
 import Account from "components/account";
 import Login from "components/login";
 import store from "../store";
@@ -28,8 +28,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "Home",
-      component: Home
+      name: "TodoList",
+      component: TodoList
     },
     {
       path: "/account",

@@ -4,13 +4,13 @@ import Vue from "vue";
 import App from "./App";
 import router from "./router";
 import store from "./store";
+import SvgIcon from "./elements/SvgIcon/SvgIcon.vue";
 import Loading from "components/lib/loading";
-import CenterContainer from "components/lib/center-container";
 
 Vue.config.productionTip = false;
 
 Vue.component("loading", Loading);
-Vue.component("center-container", CenterContainer);
+Vue.component("svg-icon", SvgIcon);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",

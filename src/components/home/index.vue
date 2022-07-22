@@ -26,15 +26,12 @@
 </style>
 
 <script>
-import fakeFeed from "./fakeFeed";
-import FeedItem from "./feedItem.vue";
 import { mapGetters } from "vuex";
 import Login from "components/login";
 
 export default {
   components: {
-    Login,
-    FeedItem
+    Login
   },
   name: "home",
   computed: {
@@ -44,7 +41,7 @@ export default {
     }
   },
   data() {
-    return { fakeFeed };
+    return { };
   }
 };
 </script>
